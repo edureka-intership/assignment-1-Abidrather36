@@ -1,0 +1,150 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration:none;
+}
+#header{
+    height:60px;
+    width:100%;
+    background-color:#ad5232;
+    
+}
+
+
+#social{
+    float:right;
+}
+#icon{
+    float:left;
+    margin-left:1%;
+    margin-top: -1%;
+}
+.slogo{
+    height:50px;
+    width:50px; 
+}
+#HeadingText{
+   text-align:center;
+   font-size:30px;
+   font-weight: bold;
+   color:grey;
+}
+#content{
+  height: 800;
+  width: 80%;
+ 
+  margin-left:10%;
+ 
+}
+.filterText{
+    text-align:center;
+    display:block;
+   
+    
+}
+
+
+
+#Ft{
+    color:grey;
+    font-size:14px;
+}
+#filterDiv{
+    height: 500px;
+  width: 20%;
+  border:2px solid grey;
+  float:left;
+
+}
+#Filhead{
+    font-size:30px;
+   display:block;
+   text-align: center;
+}
+#fillsubhead{
+    font-size:12px;
+    display:block;
+    text-align: center;
+    line-height: 0
+}
+.R{
+    margin-left:5%;
+   
+ }
+#costfilter{
+    font-size:12px;
+    text-align: center;
+    display:block;
+    color:grey;
+}
+.R2{
+margin-left:5%
+}
+ 
+#contentDiv{
+    height: 500px;
+    width:77%;
+    border:2px solid grey;
+    float:left;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px grey;
+  
+}
+.Div1 {
+    margin-left:4%;
+    margin-top:2%;
+    height:200px;
+    width:44%;
+    float:left;
+    display: inline block;
+}
+.Div1 >img{
+    width: 100%;
+    height:200px;
+    border-radius: 4%;
+   
+   
+
+}
+.bo{
+    border-bottom: 2px solid black;
+
+}
+#Heading1{
+    font-weight:bold;
+    font-size:20px;
+    color: green;
+    display:block;
+}
+.pText{
+    line-height: 2;
+    display: block;
+}
+.qText{
+    display: block;
+}
+
+
+
+
+
+#footer{
+    height:110px;
+    width:100%;
+    background-color: #e28b62;
+    
+}
+#footText{
+    text-align:center;
+}
+.footDiv{
+    height: 66px;
+    width: 33%;
+    float:left;
+    border-right: 2px solid black;
+    text-align: center;
+} 
+.noBorder{
+    border: none;
+}
