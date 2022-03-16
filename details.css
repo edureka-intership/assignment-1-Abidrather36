@@ -1,0 +1,90 @@
+body{
+    margin:auto;
+}
+a{
+    text-decoration:none;
+}
+#header{
+    height:60px;
+    width:100%;
+    background-color:#ad5232;
+    
+}
+
+
+#social{
+    float:right;
+}
+#icon{
+    float:left;
+    margin-left:1%;
+    margin-top: -1%;
+}
+.slogo{
+    height:50px;
+    width:50px; 
+}
+#MainDiv{
+    height:550px;
+    width:80%;
+    float:left;
+   
+}
+.divImage{
+    height:400px;
+    width:43%;
+    border:5px groove grey;
+    margin-left:2%;
+    float:left;
+    margin-top:5%;
+
+}
+.divImage>img{
+    height:400px;
+    width:100%;
+}
+.divContent{
+    height:450px;
+    width:50%;
+    /* border:2px solid grey; */
+    margin-left:2%;
+    margin-top:2.5%;
+    float:left;
+}
+#feature_container{
+    width:100%;
+}
+.feature{
+    float:left;
+    margin-left:5%
+}
+.feticon{
+    height:100px;
+    width:100px;
+    margin-left:2%;
+ 
+}
+/*Search css*/
+
+
+/*footer*/
+#footer{
+    clear:both;
+    height:110px;
+    width:100%;
+    background-color: #e28b62;
+    
+}
+#footText{
+    text-align:center;
+}
+.footDiv{
+    height: 66px;
+    width: 33%;
+    float:left;
+    border-right: 2px solid black;
+    text-align: center;
+} 
+.noBorder{
+    border: none;
+}

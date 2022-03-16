@@ -1,158 +1,266 @@
-    body{
-        margin:auto;
-    }
-    a{
-        text-decoration:none;
-    }
-    #header{
-        height:60px;
-        width:100%;
-        background-color:#ad5232;
+        body{
+            margin:auto;
+        }
+        a{
+            text-decoration:none;
+        }
+        #header{
+            height:60px;
+            width:100%;
+            background-color:#ad5232;
+            
+        }
+
+
+        #social{
+            float:right;
+        }
+        #icon{
+            float:left;
+            margin-left:1%;
+            margin-top: -1%;
+        }
+        .slogo{
+            height:50px;
+            width:50px; 
+        }
+
         
-    }
-
-
-    #social{
-        float:right;
-    }
-    #icon{
-        float:left;
-        margin-left:1%;
-        margin-top: -1%;
-    }
-    .slogo{
-        height:50px;
-        width:50px; 
-    }
-
-    
-    /*Search css*/
-    #search{ 
-        height:400px;
-        width:100%;
-        background-image: url('images/food-wallpaper.png');
-        background-repeat: no-repeat;
-        /* background-size: cover; */
-        background-size: 100% 400px;
-        
-    }
-    #logo{
-    height: 150px;
-    width: 150px;
-    background-color: rgb(240 229 229 / 60%);
-    position: absolute;
-    border-radius: 50%;
-    margin-left: 45%;
-    font-weight: bold;
-   
-
-    }
-    #logo>span{
+        /*Search css*/
+        #search{ 
+            height:400px;
+            width:100%;
+            background-image: url('images/food-wallpaper.png');
+            background-repeat: no-repeat;
+            /* background-size: cover; */
+            background-size: 100% 400px;
+            
+        }
+        #logo{
+        height: 150px;
+        width: 150px;
+        background-color: rgb(240 229 229 / 60%);
         position: absolute;
         border-radius: 50%;
-        margin-left:30%;
-        margin-top:19%;
-        font-size: 80px;
-    }
-    #heading{
-       
-        margin-left:28%;
-        margin-top:15%;
-        position: absolute;
-        font-size: 50px;
-        color: white
-    }
-    .dropdown{
-        height:50px;
-        width: 60%;
-        margin-left:27%;
-        margin-top:21%;
-        position:absolute;
-        
+        margin-left: 45%;
+        font-weight: bold;
+    
 
-    }
-    select{
-        height:50px;
-        width: 40%;
-        font-size:20px;
-        text-align:center;   
-    }
-    /*quick search*/
-    #quicksearch{
-        margin-top:2%;
-        margin-left:10%;
-        height:530px;
-        width:80%;
-   
-    
-    }
-    
-    #quickheading{
-            font-size: 30px;
-            color:#e28b62;
-            font-weight: bold;
-            display:block;
-            margin-left: 2%;
-    }
-    #quicksubheading{
-            font-size:20px;
-            color:grey;
-            display:block;
-            line-height:3;
-            margin-left: 2%;
-    }
-    .tilecontainer{
-        height:180;
-        width:30%;
-      box-shadow:10px 20px 10px gray ;
-        display:inline-block;
-        margin-left: 2%;
-        margin-top:2%;
-    }
-    .tilecomponent1{
-        height:180px;
-        width:50%;
-        background-color:olive;
-        float:left;
-    }
-    .tilecomponent1>img{
-        height:180px;
-        width:100%;
-    }
-    .tilecomponent2{
-        height:180px;
-        width:45%;
-        float:left;
-        margin-top:15%;
-        margin-left:5%
-       
-    }
-    .componentHeading>a{
-        font-size:25px;
-        color:#e28b62;
-       
-    }
-    .componentSubHeading{
-        font-size:15px;
-        color:gray;
-    }
-    /*footer*/
-    #footer{
-        height:110px;
-        width:100%;
-        background-color: #e28b62;
+        }
+        #logo>span{
+            position: absolute;
+            border-radius: 50%;
+            margin-left:30%;
+            margin-top:19%;
+            font-size: 80px;
+        }
+        #heading{
         
-    }
-    #footText{
-        text-align:center;
-    }
-    .footDiv{
-        height: 66px;
-        width: 33%;
-        float:left;
-        border-right: 2px solid black;
-        text-align: center;
-    } 
-    .noBorder{
-        border: none;
+            margin-left:28%;
+            margin-top:15%;
+            position: absolute;
+            font-size: 50px;
+            color: white
+        }
+        .dropdown{
+            height:50px;
+            width: 60%;
+            margin-left:27%;
+            margin-top:21%;
+            position:absolute;
+            
+
+        }
+        select{
+            height:50px;
+            width: 40%;
+            font-size:20px;
+            text-align:center;   
+        }
+        /*quick search*/
+        #quicksearch{
+            margin-top:2%;
+            margin-left:10%;
+            height:530px;
+            width:80%;
+    
+        
+        }
+        
+        #quickheading{
+                font-size: 30px;
+                color:#e28b62;
+                font-weight: bold;
+                display:block;
+                margin-left: 2%;
+        }
+        #quicksubheading{
+                font-size:20px;
+                color:grey;
+                display:block;
+                line-height:3;
+                margin-left: 2%;
+        }
+        .tilecontainer{
+            height:180;
+            width:30%;
+            box-shadow:10px 20px 10px gray ;
+            display:inline-block;
+            margin-left: 2%;
+            margin-top:2%;
+        }
+        .tilecomponent1{
+            height:180px;
+            width:50%;
+            background-color:olive;
+            float:left;
+        }
+        .tilecomponent1>img{
+            height:180px;
+            width:100%;
+        }
+        .tilecomponent2{
+            height:180px;
+            width:45%;
+            float:left;
+            margin-top:15%;
+            margin-left:5%
+        
+        }
+        .componentHeading>a{
+            font-size:25px;
+            color:#e28b62;
+        
+        }
+        .componentSubHeading{
+            font-size:15px;
+            color:gray;
+        }
+        /*footer*/
+        #footer{
+            height:110px;
+            width:100%;
+            background-color: #ad5232;;
+            
+        }
+        #footText{
+            text-align:center;
+        }
+        .footDiv{
+            height: 66px;
+            width: 33%;
+            float:left;
+            border-right: 2px solid black;
+            text-align: center;
+        } 
+        .noBorder{
+            border: none;
+        }
+        @media screen and (max-width:1600px)
+        {
+            body{
+                background-color:lightgray;
+            }
+        }
+        @media screen and (max-width:1200px)
+        {
+            body{
+                background-color:lightgray;
+            }
+            #heading{
+                margin-left: 26%;
+            }
+            
+        @media screen and (max-width:1000px)
+        {
+            body{
+                background-color:lightblue;
+            }
+            #heading{
+                margin-left: 20%;
+            }
+            .dropdown{
+                margin-left: 27%;
+                margin-top: 24%; 
+            }
+        }
+        @media screen and (max-width:900px){
+            body{
+                background-color:olive;
+            }
+            .dropdown{
+                margin-left: 27%;
+                margin-top: 32%;
+            }
+            #heading{
+                font-size:41px;
+                margin-left:21%;
+                margin-top: 22%;
+            }
+            .tilecontainer{
+                width:40%;
+            }
+
+        } 
+        @media screen and (max-width:800px)
+        {
+            body{
+                background-color:lightgreen;
+            }
+
+           #heading{
+            margin-left: 27%;
+            margin-top: 23%;
+            font-size: 35px;
+           }
+          .dropdown{
+            height: 50px;
+            width: 57%;
+            margin-left: 30%;
+            margin-top: 31%;
+          }
+          
+        }
+        @media screen and (max-width:700px){
+            #heading{
+             margin-top: 31%;
+             font-size: 34px;
+            }
+            .dropdown{
+                margin-left: 36%;
+                margin-top: 43%;
+            }
+            .tilecontainer{
+                width: 49%;
+            }
+            
+        }
+        @media screen and (max-width:600px){
+            #heading{
+                margin-top: 35%;
+                font-size: 27px;
+            }
+            .dropdown{
+                margin-left: 36%;
+                margin-top: 46%;
+            }
+        }
+        @media screen and (max-width:500px)
+        {
+            body{
+                background-color:teal ;
+            }
+            #heading{
+                margin-left: 20%;
+                margin-top: 38%;
+                font-size: 29px;
+            }
+            .dropdown{
+                height: 50px;
+                width: 49%;
+                font-size: 20px;
+                margin-left: 35%;
+                margin-top: 49%;
+            }
+        }
     }
